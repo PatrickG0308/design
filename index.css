@@ -38,32 +38,50 @@ nav a:hover::after {
     width: 100%;
 }
 
-main {
+/*.flex-container {
     display: flex;
     height:calc(100vh - 100px);
     align-items: center;
     justify-content: center;
 }
 
-.hero-img {
+.box img {
     max-width: 670px;
     height: auto;
 }
 
-.content-left {
+.box {
     width: 30%;
 }
 
-main h1 {
+.box h1 {
     font-size: 54px;
     text-transform: uppercase;
 }
 
-main p {
+.box p {
     font-size: 14px;
     font-weight: 400;
     line-height: 31.5px;
     margin: 30px 0;
+}*/
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.box {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.box img {
+    width: 100%;
+    height: auto;
 }
 
 .book {
@@ -77,4 +95,12 @@ main p {
   border: none;
 }
   
+@media only screen and (min-width: 800px) {
+    .flex-container {
+        flex-direction: row;
+            }
+    .box {
+        width: 50%;
+    }
+}
     
