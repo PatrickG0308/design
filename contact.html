@@ -6,16 +6,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./style.css">
     <title>D'Arcy Driving</title>
 </head>
 
 <body>
-    <section class="header">
+    <header>
         <nav>
             <a href="index.html"><img src="/images/Logo.webp" alt="Darcy company Logo"></a>
             <div class="nav-links">
                 <ul>
+                    <li><a href="index.html">Home</a></li>
                     <li><a href="lesson.html">Lessons</a></li>
                     <li><a href="testim.html">Testimonies</a></li>
                     <li><a href="gift.html">Gift Voucher</a></li>
@@ -23,6 +24,39 @@
                 </ul>
             </div>
         </nav>
+    </header>
+    <main>
+        
+              <section class="contact-form">
+                <form method="POST" action="https://www.example.com/example.htm" class="contact-info">
+                    <h2>Book Lesson</h2>
+                    <label for="fname">First Name</label>
+                    <input id="fname" name="first_name" type="text" required class="text-input">
+        
+                    <label for="lname">Last Name</label>
+                    <input id="lname" name="last_name" type="text" required class="text-input">
+        
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email_address" required class="text-input">
+
+                    <label for="phone">Phone No</label>
+                    <input type="number" id="phone" name="phone_number" required class="text-input">
+        
+                    <label for="lessons">12 Lessons</label>
+                    <input type="radio" id="lessons" name="lesson_type" value="12" required>
+                    <label for="pretest">Pre-Test</label>
+                    <input type="radio" id="pretest" name="lesson_type" value="pretest" required>
+                    <label for="hourly">Hourly Lessons</label>
+                    <input type="radio" id="hourly" name="lesson_type" value="hourly" required>
+                    <label for="edt">EDT</label>
+                    <input type="radio" id="edt" name="lesson_type" value="edt" required>
+                    <label for="theory">Theory Prep</label>
+                    <input type="radio" id="theory" name="lesson_type" value="theory" required>
+        
+                    <input class="get-quote" type="submit" value="Get Quote">
+                </form>
+              </section>
+    </main>     
 
 </body>
 
