@@ -122,6 +122,19 @@ nav img {
 
 /* Lessons Available */
 
+.training {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+}
+
+.training > h1 {
+    font-size: 36px;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
 /* Testimonials */
 
 .container {
