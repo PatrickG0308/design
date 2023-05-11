@@ -42,17 +42,14 @@
                     <label for="phone">Phone No</label>
                     <input type="tel" id="phone" name="phone" required class="text-input">
         
-                    <label for="lessons">12 Lessons</label>
-                    <input type="radio" id="lessons" name="lesson_type" value="12" required>
-                    <label for="pretest">Pre-Test</label>
-                    <input type="radio" id="pretest" name="lesson_type" value="pretest" required>
-                    <label for="hourly">Hourly Lessons</label>
-                    <input type="radio" id="hourly" name="lesson_type" value="hourly" required>
-                    <label for="edt">EDT</label>
-                    <input type="radio" id="edt" name="lesson_type" value="edt" required>
-                    <label for="theory">Theory Prep</label>
-                    <input type="radio" id="theory" name="lesson_type" value="theory" required>
-        
+                    <label for="gift">Choose Lesson Type:</label>
+                    <select name="lesson" id="lesson">
+                        <option value="edt">Essential Driver Training</option>
+                        <option value="pretest">Pre-Test</option>
+                        <option value="hourly">Hourly Lessons</option>
+                        <option value="theory">Theory Test Prep</option>
+                        <option value="250">€250</option>
+                    </select>
                     <input class="get-quote" type="submit" value="Get Quote">
                 </form>
               </section>
