@@ -188,7 +188,7 @@ nav img {
     margin-bottom: 20px;
 }
 
-.gift-input {
+/*.gift-input {
     background: transparent;
     color: #fafafa;
     width: 100%;
@@ -196,10 +196,12 @@ nav img {
     margin: 5px 0 20px 0;
     border: 1px solid #fafafa;
     border-radius: 2px;
-}
+}*/
+
+
 
 .gift-input:hover {
-    border-color: yellow;
+    border-color: green;
 }
 
 .gift-submit {
@@ -208,7 +210,7 @@ nav img {
     padding: 15px 32px 15px 32px;
     text-align: center;
     font-size: 100%;
-    background-color: #f16c6b;
+    background-color: green;
     color: #fafafa;
     display: block;
 }

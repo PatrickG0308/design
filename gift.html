@@ -43,19 +43,17 @@
     
                 <label for="phone">Phone No</label>
                 <input type="tel" id="phone" name="phone" required class="text-input">
+                
+                <label for="gift">Choose Amount:</label>
+                <select name="gift" id="gift">
+                <option value="50">€50</option>
+                <option value="100">€100</option>
+                <option value="150">€150</option>
+                <option value="200">€200</option>
+                <option value="250">€250</option>
+</select>
     
-                <label for="50">€50</label>
-                <input type="radio" id="50" name="gift" value="50" required>
-                <label for="100">€100</label>
-                <input type="radio" id="100" name="gift" value="100" required>
-                <label for="150">€150</label>
-                <input type="radio" id="150" name="gift" value="150" required>
-                <label for="250">€250</label>
-                <input type="radio" id="250" name="gift" value="250" required>
-                <label for="500">€500</label>
-                <input type="radio" id="500" name="gift" value="250" required>
-    
-                <input class="get-quote" type="submit" value="Get Voucher">
+                <input class="gift-submit" type="submit" value="Get Voucher">
             </form>
         </section>
     </main>
