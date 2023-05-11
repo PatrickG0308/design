@@ -69,14 +69,15 @@ nav img {
 
 .book-lesson {
     display: inline-block;
-    color: white;
+    color: black;
     border: 1px solid black;
     padding: 12px 34px;
     font-size: 15px;
-    background: green;
+    background: #939B84;
     position: relative;
     cursor: pointer;
     border-radius: 5%;
+    font-weight: 500;
     
 }
 
@@ -134,6 +135,35 @@ nav img {
     font-weight: 600;
     text-decoration: underline;
 }
+
+.row {
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.training-col {
+    flex-basis: 31%;
+    background: #939B84;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+}
+
+.training-col > h3 {
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+} 
+
+@media (max-width: 700px) {
+    .row {
+        flex-direction: column;
+    }
+}
+
+
 
 /* Testimonials */
 
