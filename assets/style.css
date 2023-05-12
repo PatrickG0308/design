@@ -2,6 +2,8 @@
     margin: 0;
     padding: 0;
     font-family: 'Open Sans',sans-serif;
+    
+    
 }
 /*---- Header -----*/
 nav {
@@ -51,6 +53,7 @@ nav img {
 }
 
 /*---- Home Page Main ----*/
+
 .flex-container {
     display: flex;
     flex-direction: column;
@@ -102,6 +105,22 @@ nav img {
     }
 }
 
+/*--- Services --->*/
+.services-col {
+    float: left;
+    width: 33.33%;
+    padding: 50px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+/* Clearfix (clear floats) */
+.services::after {
+    content: "";
+    clear: both;
+    display: table;
+    box-sizing: border-box;
+}
 /* Lessons Available */
 
 .training {
@@ -129,7 +148,7 @@ nav img {
     border-radius: 10px;
     margin-bottom: 5%;
     padding: 20px 12px;
-    box-sizing: border-box;
+    
     
 }
 
