@@ -84,11 +84,10 @@ nav img {
 
 .book-lesson {
     display: inline-block;
-    color: black;
-    border: 1px solid black;
+    color: #fff;    
     padding: 12px 34px;
-    font-size: 15px;
-    background: #939B84;
+    font-size: 1.1rem;
+    background: #2ecc71;
     position: relative;
     cursor: pointer;
     border-radius: 5%;
@@ -172,17 +171,17 @@ nav img {
 
 .lesson-btn {
     
-    display: block;
-    width: 115px;
-    height: 25px;
-    background: rgb(0, 128, 75);
-    padding: 10px;
-    text-align: center;
-    border-radius: 5px;
-    color: black;
-    font-weight: bold;
-    line-height: 25px;
-    margin: 30% 0 0 35%;
+    display: inline-block;
+        color: #fff;
+        padding: 12px 34px;
+        font-size: 1.1rem;
+        background: #2ecc71;
+        position: relative;
+        cursor: pointer;
+        border-radius: 5%;
+        font-weight: 500;
+        margin: 20px;
+    
 }
 
 
@@ -221,17 +220,7 @@ nav img {
     margin-right: 15px;
 }
 
-/*@media (max-width: 500px) {
-    .container {
-        text-align: center;
-    }
 
-    .container img {
-        margin: auto;
-        float: none;
-        display: block;
-    }
-}*/
 
 /* Gift Vouchers */
 
