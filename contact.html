@@ -27,57 +27,29 @@
     </header>
     <main>
         <div class="contact-container">
-            <form action="./thankyou.html">
-                <div class="contact-row">
-                    <div class="col-25">
-                        <label for="fname">First Name</label>
-                    </div>
-                    <div class="col-75">
-                        <input type="text" id="fname" name="firstname" placeholder="Your name..">
-                    </div>
-                </div>
-                <div class="contact-row">
-                    <div class="col-25">
-                        <label for="lname">Last Name</label>
-                    </div>
-                    <div class="col-75">
-                        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-                    </div>
-                </div>
-                <div class="contact-row">
-                    <div class="col-25">
-                        <label for="phone">Phone No</label>
-                    </div>
-                    <div class="col-75">
-                        <input type="tel" id="phone" name="phone" placeholder="Your contact no..">
-                    </div>
-                </div>
-                <div class="contact-row">
-                    <div class="col-25">
-                        <label for="email">E-Mail</label>
-                    </div>
-                    <div class="col-75">
-                        <input type="email" id="email" name="email" placeholder="Your email address..">
-                    </div>
-                </div>
-                <div class="contact-row">
-                    <div class="col-25">
-                        <label for="Lesson Type">Lessons Required</label>
-                    </div>
-                    <div class="col-75">
-                        <select id="lesson" name="lesson">
-                            <option value="edt">Essential Driver Training</option>
-                            <option value="pretest">Pre-Test Lesson</option>
-                            <option value="hourly">Hourly Lesson</option>
-                        </select>
-                    </div>
-                </div>
-        
-                <div class="contact-row">
-                    <input type="submit" value="Submit">
-                </div>
-            </form>
+            <h1>Book Lesson</h1>
+            <form action="/thankyou.html"></form>
+            <label for="fullname"> Full Name</label>
+            <input type="text" name="fullname" id="fullname" required>
+            <label for="phone">Phone Number</label>
+            <input type="tel" name="phone" id="phone" pattern="[0-9]{10}" maxlength="10" required>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" required>
+            <label for="Lesson"> Lessons Required</label>
+            <select name="lesson" id="lesson">
+                <option value="edt">Essential Driver Training</option>
+                <option value="pretest">Pre-Test Lesson</option>
+                <option value="hourly">Hourly Lesson</option>
+            </select>
+            <label for="enquiry">Your Enquiry</label>
+            <textarea id="enquiry" name="enquiry" placeholder="Write your enquiry here.." style="height:200px"></textarea>
+            <input type="submit" name="submit" id="submit">
+
+            
+
+            </div>
         </div>
+ 
               
     </main>     
 
