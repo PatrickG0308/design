@@ -26,38 +26,33 @@
         </nav>
     </header>
     <main>
-        <h1 class="skill">DRIVING LESSONS GIFT VOUCHER</h1>
-        <h2 class="skill">"Give a Skill for Life"</h2>
-    
-    <div class="gift-container">
-        <div class="gift-form">
-            <form action="/thankyou.html"  class="gift-info">
-                <h2>Gift Vouchers</h2>
-                <label for="fname">First Name</label>
-                <input id="fname" name="first_name" type="text" required class="text-input">
-    
-                <label for="lname">Last Name</label>
-                <input id="lname" name="last_name" type="text" required class="text-input">
-    
-                <label for="email">Email Address</label>
-                <input type="email" id="email" name="email" required class="text-input">
-    
-                <label for="phone">Phone No</label>
-                <input type="tel" id="phone" name="phone" required class="text-input">
-                
-                <label for="gift">Choose Amount:</label>
-                <select name="gift" id="gift">
-                <option value="50">€50</option>
-                <option value="100">€100</option>
-                <option value="150">€150</option>
-                <option value="200">€200</option>
-                <option value="250">€250</option>
-                <input class="gift-submit" type="submit" value="Buy Voucher">
+        <div class="gift-container">
+            <form action="./thankyou.html">
+                <div class="gift-box">
+                    <div class="gift-left"></div>
+                    <div class="gift-right">
+                        <h2>Driving Lessons Gift Voucher</h2>
+                        <h3>"Give a Skill for Life"</h3>
+                        <input type="text" class="gift-field" placeholder="Your Name" required>
+                        <input type="text" class="gift-field" placeholder="Your Email">
+                        <input type="tel" class="gift-field" placeholder="Phone No" required pattern="[0-9]{10}"
+                            maxlength="12">
+                        <label for="voucher" class="gift-field">Voucher Amount</label>
+                        <select id="voucher" name="voucher" class="gift-field">
+                            <option value="50">€50</option>
+                            <option value="100">€100</option>
+                            <option value="150">€150</option>
+                            <option value="250">€250</option>
+                            <option value="500">€500</option>
+                        </select>
+                        <textarea placeholder="Your Enquiry" class="contact-field"></textarea>
+                        <input class="gift-btn" type="submit" value="Request Voucher">
+
+                    </div>
+                </div>
             </form>
         </div>
-   </div>
-            
-        </section>
+
     </main>
 
 </body>
