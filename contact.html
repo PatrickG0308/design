@@ -26,30 +26,28 @@
         </nav>
     </header>
     <main>
-        <div class="contact-container">
-            <h1>Book Lesson</h1>
-            <form action="/thankyou.html"></form>
-            <label for="fullname"> Full Name</label>
-            <input type="text" name="fullname" id="fullname" required>
-            <label for="phone">Phone Number</label>
-            <input type="tel" name="phone" id="phone" pattern="[0-9]{10}" maxlength="10" required>
-            <label for="email">Email</label>
-            <input type="email" name="email" id="email" required>
-            <label for="Lesson"> Lessons Required</label>
-            <select name="lesson" id="lesson">
-                <option value="edt">Essential Driver Training</option>
-                <option value="pretest">Pre-Test Lesson</option>
-                <option value="hourly">Hourly Lesson</option>
-            </select>
-            <label for="enquiry">Your Enquiry</label>
-            <textarea id="enquiry" name="enquiry" placeholder="Write your enquiry here.." style="height:200px"></textarea>
-            <input type="submit" name="submit" id="submit">
-
-            
-
+    <div class="contact-container">
+        <form action="./thankyou.html">
+            <div class="contact-box">
+                <div class="contact-left"></div>
+                <div class="contact-right">
+                    <h2>Contact Us</h2>
+                    <input type="text" class="contact-field" placeholder="Your Name" required>
+                    <input type="text" class="contact-field" placeholder="Your Email">
+                    <input type="tel" class="contact-field" placeholder="Phone No" required pattern="[0-9]{10}" maxlength="12" >
+                    <label for="Lesson" class="contact-field">Lessons Required</label>
+                    <select id="lesson" name="lesson" class="contact-field">
+                        <option value="edt">Essential Driver Training</option>
+                        <option value="pretest">Pre-Test Lesson</option>
+                        <option value="hourly">Hourly Lesson</option>
+                    </select>
+                    <textarea placeholder="Your Enquiry" class="contact-field"></textarea>
+                    <input class="contact-btn" type="submit" value="Request Quote">
+                    
+                </div>
             </div>
+            </form>
         </div>
- 
               
     </main>     
 
