@@ -365,7 +365,7 @@ textarea {
 }
 
 .contact-left {
-    background: url("/assets/images/roofsign.webp") no-repeat center;
+    background: url("./assets/images/roofsign.webp") no-repeat center;
     background-size: cover;
     height: 100%;
 }
