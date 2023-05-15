@@ -136,9 +136,49 @@ nav img {
 
 .training {
     width: 80%;
+    text-align: center;
+    padding: 10px;
+    margin-left: 10%;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5%;
+    
+    
+}
+
+.training-col {
+    flex-basis: 32%;
+    border-radius: 10px;
+    padding: 20px 12px;
+    background: #939B84;
+    justify-content: space-between;
+}
+.training-col p {
+    margin: 10%;
+}
+
+.training-btn {
+
+    display: inline;
+    color: #fff;
+    padding: 10px 15px;
+    font-size: 1.1rem;
+    background: #11502B;
+    position: relative;
+    cursor: pointer;
+    border-radius: 5%;
+    font-weight: 500;
+}
+
+/*.training {
+    width: 80%;
     margin: auto;
     text-align: center;
     padding: 10px;
+    
 }
 
 .training > h1 {
@@ -155,10 +195,12 @@ nav img {
 
 .training-col {
     flex-basis: 31%;
-    background: #2ecc71;
+    background: #939B84;
     border-radius: 10px;
     margin-bottom: 5%;
     padding: 20px 12px;
+    
+    
     
     
 }
@@ -169,20 +211,7 @@ nav img {
     margin: 10px 0;
 }
 
-.lesson-btn {
-    
-    display: inline-block;
-        color: #fff;
-        padding: 12px 34px;
-        font-size: 1.1rem;
-        background: #11502B;
-        position: relative;
-        cursor: pointer;
-        border-radius: 5%;
-        font-weight: 500;
-        margin: 20px;
-    
-}
+
 /* ---- Video ----*/
 
 .video-insert {
@@ -195,6 +224,7 @@ nav img {
 @media (max-width: 700px) {
     .video-row {
         flex-direction: column;
+
     }
 }
 
@@ -202,6 +232,8 @@ nav img {
 @media (max-width: 700px) {
     .row {
         flex-direction: column;
+        justify-content: space-between;
+
     }
 }
 
@@ -461,7 +493,7 @@ footer {
 
     .social-networks li {
         display: inline;
-        color: white;
+        
     }
     .social-networks a {
         color: white;
@@ -469,7 +501,7 @@ footer {
 
     .social-networks i {
         font-size: 160%;
-        margin: .5%;
+        margin: .25%;
         padding: 1%;
         color: black;
     }
