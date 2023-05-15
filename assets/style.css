@@ -87,7 +87,7 @@ nav img {
     color: #fff;    
     padding: 12px 34px;
     font-size: 1.1rem;
-    background: #2ecc71;
+    background: #11502B;
     position: relative;
     cursor: pointer;
     border-radius: 5%;
@@ -155,7 +155,7 @@ nav img {
 
 .training-col {
     flex-basis: 31%;
-    background: #939B84;
+    background: #2ecc71;
     border-radius: 10px;
     margin-bottom: 5%;
     padding: 20px 12px;
@@ -175,7 +175,7 @@ nav img {
         color: #fff;
         padding: 12px 34px;
         font-size: 1.1rem;
-        background: #2ecc71;
+        background: #11502B;
         position: relative;
         cursor: pointer;
         border-radius: 5%;
@@ -313,7 +313,7 @@ textarea {
 .gift-btn {
     width: 100%;
     padding: 0.5rem 1rem;
-    background-color: #2ecc71;
+    background-color: #11502B;
     color: #fff;
     font-size: 1.1rem;
     border: none;
@@ -389,7 +389,7 @@ textarea {
     height: 4px;
     width: 50px;
     border-radius: 2px;
-    background-color: #2ecc71;
+    background-color: #11502B;
 }
 
 .contact-right select {
@@ -418,7 +418,7 @@ textarea {
 .contact-btn {
     width: 100%;
     padding: 0.5rem 1rem;
-    background-color: #2ecc71;
+    background-color: #11502B;
     color: #fff;
     font-size: 1.1rem;
     border: none;
@@ -446,3 +446,31 @@ textarea {
     }
 }
 
+/*----- Footer ----->*/
+
+footer {
+    height: 10px;
+}
+
+.social-networks {
+        text-align: center;
+        background-color: #11502B;
+        
+
+    }
+
+    .social-networks li {
+        display: inline;
+        color: white;
+    }
+    .social-networks a {
+        color: white;
+    }
+
+    .social-networks i {
+        font-size: 160%;
+        margin: .5%;
+        padding: 1%;
+        color: black;
+    }
+          
