@@ -183,6 +183,20 @@ nav img {
         margin: 20px;
     
 }
+/* ---- Video ----*/
+
+.video-insert {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+}
+
+@media (max-width: 700px) {
+    .video-row {
+        flex-direction: column;
+    }
+}
 
 
 @media (max-width: 700px) {
@@ -431,3 +445,4 @@ textarea {
         height: 200px;
     }
 }
+
