@@ -47,7 +47,7 @@ nav img {
     content: '';
     width: 0%;
     height: 2px;
-    background: #f44336;
+    background: #11502B;
     display: block;
     margin: auto;
     transition: 0.5s;
@@ -80,6 +80,7 @@ nav img {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin-left: 10px;
 }
 
 .box h2 {
@@ -106,7 +107,6 @@ nav img {
 }
 
 .book-lesson:hover {
-    border: 1px solid #f44336;
     background: green;
     transition: 1s;
 }
@@ -184,44 +184,10 @@ nav img {
     font-weight: 500;
 }
 
-/*.training {
-    width: 80%;
-    margin: auto;
-    text-align: center;
-    padding: 10px;
-    
+.training-btn:hover {
+    background: green;
+    transition: 1s;
 }
-
-.training > h1 {
-    font-size: 36px;
-    font-weight: 600;
-    text-decoration: underline;
-}
-
-.row {
-    margin-top: 5%;
-    display: flex;
-    justify-content: space-between;
-}
-
-.training-col {
-    flex-basis: 31%;
-    background: #939B84;
-    border-radius: 10px;
-    margin-bottom: 5%;
-    padding: 20px 12px;
-    
-    
-    
-    
-}
-
-.training-col > h3 {
-    text-align: center;
-    font-weight: 600;
-    margin: 10px 0;
-}
-
 
 /* ---- Video ----*/
 
@@ -328,7 +294,7 @@ nav img {
     height: 4px;
     width: 50px;
     border-radius: 2px;
-    background-color: #2ecc71;
+   
 }
 
 .gift-right select {
@@ -367,7 +333,7 @@ textarea {
 }
 
 .gift-btn:hover {
-    background-color: #27ae60;
+    background-color: green
 }
 
 .gift-field:focus {
@@ -433,7 +399,7 @@ textarea {
     height: 4px;
     width: 50px;
     border-radius: 2px;
-    background-color: #11502B;
+   
 }
 
 .contact-right select {
@@ -472,7 +438,7 @@ textarea {
 }
 
 .contact-btn:hover {
-    background-color: #27ae60;
+    background-color: green;
 }
 
 .contact-field:focus {
