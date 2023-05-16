@@ -57,6 +57,16 @@ nav img {
     width: 100%;
 }
 
+@media (max-width: 700px) {
+    .logo {
+        margin-bottom: 10px;
+    }
+    .nav-links {
+        padding: .25rem .45rem;
+    }
+
+}
+
 /*---- Home Page Main ----*/
 
 .flex-container {
