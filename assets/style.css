@@ -61,7 +61,7 @@ nav img {
     .logo {
         margin-bottom: 10px;
     }
-    .nav-links {
+    nav-links {
         padding: .25rem .45rem;
     }
 
@@ -198,20 +198,24 @@ nav img {
     padding: 10px;
 }
 
-@media (max-width: 700px) {
+/*@media (max-width: 700px) {
     .video-row {
         flex-direction: column;
 
     }
-}
+}*/
 
 
 @media (max-width: 700px) {
     .row {
         flex-direction: column;
-        justify-content: space-between;
-        
+        /*justify-content: space-between;*/       
 
+    }
+
+    .video-row {
+            flex-direction: column;
+    
     }
 }
 
@@ -483,4 +487,11 @@ footer {
         padding: 1%;
         color: black;
     }
+
+@media screen and (max-width: 700px) {
+    .social-networks {
+        width: 100%;
+    }
+}
+
           
