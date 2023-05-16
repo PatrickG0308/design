@@ -155,6 +155,7 @@ nav img {
     padding: 20px 12px;
     background: #939B84;
     justify-content: space-between;
+    margin-bottom: 5%;
 }
 .training-col p {
     margin: 10%;
@@ -233,6 +234,7 @@ nav img {
     .row {
         flex-direction: column;
         justify-content: space-between;
+        
 
     }
 }
