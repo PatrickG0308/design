@@ -568,4 +568,12 @@ footer {
     }
 }
 
+/* thank you */
+
+.thanks {
+    min-height: 66vh;
+    display: flex;
+    flex-direction: column;
+}
+
           
