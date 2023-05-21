@@ -1,3 +1,5 @@
+/*Generic Styling*/
+
 * {
     margin: 0;
     padding: 0;
@@ -10,7 +12,11 @@ body {
     height: 100vh;
     width: 100%;
 }
+
 /*---- Header -----*/
+
+/* Nav Links alignment */
+
 nav {
     display: flex;
     padding: 2% 6%;
@@ -20,16 +26,20 @@ nav {
     
 }
 
+/* logo size */
+
 nav img {
     max-width: 18.75rem;
 }
 
+/* nav links alignment */
 .nav-links {
     flex: 1;
     text-align: right;
     
 }
 
+ /* nav link remove bullit points and styling*/
 .nav-links ul li {
     list-style: none;
     display: inline-block;
@@ -37,12 +47,14 @@ nav img {
     position: relative;
 }
 
+/* navlink colour and deecoration removal*/
 .nav-links ul li a {
     color: black;
     text-decoration: none;
     
 }
 
+/* navlink hover settings */
 .nav-links ul li::after {
     content: '';
     width: 0%;
@@ -53,10 +65,12 @@ nav img {
     transition: 0.5s;
 }
 
+/* navlink hover settings */
 .nav-links ul li:hover::after {
     width: 100%;
 }
 
+/* media query to break at 700px */
 @media (max-width: 700px) {
     .logo {
         margin-bottom: 10px;
@@ -68,11 +82,14 @@ nav img {
 
 /*---- Home Page Main ----*/
 
+/*flexbox container to split screen between text and image */
+
 .flex-container {
     display: flex;
     flex-direction: column;
 }
 
+/*flexbox container to split screen between text and image */
 .box {
     width: 100%;
     display: flex;
@@ -82,16 +99,18 @@ nav img {
     margin-left: 10px;
 }
 
+/*flexbox container to split screen between text and image */
 .box h2 {
     font-size: 50px;
     margin-bottom: 50px;
 }
-
+/*flexbox container to split screen between text and image */
 .box img {
     width: 100%;
     height: auto;
 }
 
+/* submit button to book lesson */
 .book-lesson {
     display: inline-block;
     color: #fff;    
@@ -105,10 +124,13 @@ nav img {
     margin: 20px;
 }
 
+/* submit button to book lesson hover settings */
 .book-lesson:hover {
     background: green;
     transition: 1s;
 }
+
+/* media query to break at 800px */
 @media only screen and (min-width: 800px) {
     .flex-container {
         flex-direction: row;
@@ -119,6 +141,8 @@ nav img {
 }
 
 /*--- Services --->*/
+
+/* positioning of sevices imgs */
 .services-col {
     float: left;
     width: 33.33%;
@@ -135,6 +159,7 @@ nav img {
     
 }
 
+/* media query to break at 700px */
 @media screen and (max-width: 700px) {
     .services-col {
         width: 100%;
