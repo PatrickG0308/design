@@ -4,7 +4,7 @@
 
 ### Creator - Patrick Grant
 
-![am I responsive screenshot](assets/images/readmeimgs/Responsive.jpg)
+![am I responsive screenshot](assets/images/features/Responsive.jpg)
 
 ## **[Live site](https://patrickg0308.github.io/design/index.html)**
 
@@ -94,13 +94,13 @@
 
 #### Navigation Bar
 
-![Navigation Bar](assets/images/readmeimgs/NavBar.jpg)
+![Navigation Bar](assets/images/features//NavBar.jpg)
 > Logo on left side with 5 nav links on right with hover styling.
 
 
 #### Intro
 
-![Intro Section](assets/images/readmeimgs/intro.jpg)
+![Intro Section](assets/images/features//intro.jpg)
 
 > Intro and image side by side with call to action book now button. This button will take user to contact.html
 
@@ -154,6 +154,8 @@
 
 >Add more social media to footer
 
+>Use javascript to minimize navlinks to 3 bar setting on responsive screen
+
 # Technologies 
 
 * HTML
@@ -172,6 +174,10 @@
   * webp files were created at <https://cloudconvert.com/>
 * SimpleImageResizer
   * Resize image files <https://www.simpleimageresizer.com/>
+  
+# Testing
+
+ 
   
 
 
