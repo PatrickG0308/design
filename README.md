@@ -21,10 +21,11 @@
 3. [Features Left](#left)
 4. [Technology used](#technologies)
 5. [Testing](#testing)
-6. [Deployment](#deployment)
-7. [Credits](#credits)
-8. [Content](#content)
-9. [Acknowledgements](#acknowledgements)
+6. [Bugs](#bugs)
+7. [Deployment](#deployment)
+8. [Credits](#credits)
+9. [Content](#content)
+10. [Acknowledgements](#acknowledgements)
 
 <a name="ux-design"></a>
 
@@ -291,7 +292,9 @@
 
 #### Result: No Errors
 
-# Bugs
+<a name="bugs"></a>
+
+## **Bugs**
 
 > Font awesome only showing squares even though script in place **fixed**
 >
@@ -300,3 +303,5 @@
 > Issues with responsiveness **fixed**
 >
 > Issues after running validation **fixed**
+>
+> Contrast issues with Book Now buttons and background colors **fixed**
