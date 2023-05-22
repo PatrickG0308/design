@@ -290,3 +290,13 @@
 ![W3 index.html Check](assets/images/validation/validcss.jpg)
 
 #### Result: No Errors
+
+# Bugs
+
+> Font awesome only showing squares even though script in place **fixed**
+>
+> Issues with image sizing **fixed**
+>
+> Issues with responsiveness **fixed**
+>
+> Issues after running validation **fixed**
