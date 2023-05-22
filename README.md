@@ -1,6 +1,6 @@
 # D'Arcy Driving School
 
-## A website for a Driving School based in East Meath covering the Louth Meath areas of Ireland
+## Website designed for a Driving School based in East Meath covering the Louth Meath areas of Ireland
 
 ### Creator - Patrick Grant
 
