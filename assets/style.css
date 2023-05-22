@@ -555,8 +555,8 @@ footer {
 
     .social-networks i {
         font-size: 160%;
-        margin: .25%;
-        padding: .5%;
+        margin: .10%;
+        padding: .25%;
         color: black;
     }
 
@@ -576,4 +576,10 @@ footer {
     flex-direction: column;
 }
 
-          
+ /* Copyright */
+ 
+ .copy h6 {
+    text-align: center;
+    background-color: #11502B;
+    color: black;
+ }
