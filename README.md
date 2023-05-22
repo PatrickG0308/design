@@ -10,7 +10,7 @@
 
 ------------------------------------------------------------------
 
-## **[Repository](https://https://github.com/PatrickG0308/design)**
+## **[Repository](https://github.com/PatrickG0308/design)**
 
 ------------------------------------------------------------------
   
@@ -32,9 +32,7 @@
 
 ### To determine the best approach to this project I started with to determine the user and business needs
 
-## User Stories
-
-### User
+## User
 >
 > As a user I want to be able to find a driving school in my local area.  
 > As a user I want to be able to contact the driving school online.  
@@ -42,7 +40,7 @@
 > As a user I want to be able to read testimonials about the driving school .  
 > As a user I want to be able to order a gift voucher.
 
-### Business Owner
+## Business Owner
 >
 > As the site owner I want to be able to showcase the lessons available.  
 > As the site owner I want to highlight the services on offer.  
@@ -50,7 +48,7 @@
 > As the site owner I want to use this website to attract students in the Meath & Louth area.
 > As the site owner I want to provide customers the ability to obtain Gift Vouchers.
 
-## Scope Plane
+# Scope Plane
 >
 > The website should have a Navigation menu that is consistent across all pages and devices.  
 > The website should have a information message for the student explaining to them who we are and what we provide and the area we cover.  
@@ -59,8 +57,8 @@
 > The website should give the student a way to contact the business for quotes or vouchers through a form.  
 > The website should give the user more contact methods including phone number, e-mail, instagram page.  
 
-## Structure Plane
->
+# Structure Plane
+
 > To acheieve the goals of the above the website should include at least 5 pages consisting of:  Home, Lessons, Testimonials, Gift Vouchers, Contact.  
 
 **Home Page**
@@ -86,11 +84,9 @@
 > The form should have a dropdown menu offering the choice of lesson available.
 > The contact form should give user feedback on submission.
 
-## Features
+# Features
 
-<a name="features"></a>
-
-### index.html
+## index.html
 
 #### Navigation Bar
 
@@ -115,7 +111,8 @@
 
 >Contact information for business highlighted in "Traffic light" green.
 
-### lesson.html
+
+## lesson.html
 
 #### Lesson Type
 ![lesson type](assets/images/features/type.jpg)
@@ -127,22 +124,22 @@
 
 >You Tube video outlining EDT training requirements plays in page.
 
-### testim.html
+## testim.html
 ![Testimonials](assets/images/features/testimonials.jpg)
 
 >Testimonials from successfull students
 
-### gift.html
+## gift.html
 ![Gift Form](assets/images/features/giftform.jpg)
 
 > Collects user data through compulsory fields, offers a choice of amounts through dropdown menu. Upon submission this page is redirected to thankyou.html page for better user experience.
 
-### contact.html
+## contact.html
 ![Contact Form](assets/images/features/contactform.jpg)
 
 >Main traffic page were all click to action "Book Now" buttons are redirected. Collects data through compulsory fields and offers a dropdown menu with choice of lessons available. Offers an enquiry field for general enquiries.Upon submission the user is redirected to thankyou.html
 
-### thankyou.html
+## thankyou.html
 ![Contact Form](assets/images/features/thanks.jpg)
 
 >Submitted requests from gift.html and contact.html will receive this response for better user experience.
@@ -176,6 +173,8 @@
   * Resize image files <https://www.simpleimageresizer.com/>
   
 # Testing
+
+
 
  
   
