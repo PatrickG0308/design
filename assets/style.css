@@ -3,9 +3,9 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Open Sans',sans-serif;
-    box-sizing: border-box;   
-    
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+
 }
 
 body {
@@ -22,8 +22,8 @@ nav {
     padding: 2% 6%;
     justify-content: space-between;
     align-items: center;
-    
-    
+
+
 }
 
 /* logo size */
@@ -37,10 +37,10 @@ nav img {
 .nav-links {
     flex: 1;
     text-align: right;
-    
+
 }
 
- /* nav link remove bullit points and styling*/
+/* nav link remove bullit points and styling*/
 
 .nav-links ul li {
     list-style: none;
@@ -54,7 +54,7 @@ nav img {
 .nav-links ul li a {
     color: black;
     text-decoration: none;
-    
+
 }
 
 /* navlink hover settings */
@@ -123,7 +123,7 @@ nav img {
 
 .book-lesson {
     display: inline-block;
-    color: #fff;    
+    color: #fff;
     padding: 12px 34px;
     font-size: 1.1rem;
     background: #11502B;
@@ -147,6 +147,7 @@ nav img {
     .flex-container {
         flex-direction: row;
     }
+
     .box {
         width: 50%;
     }
@@ -161,7 +162,7 @@ nav img {
     width: 33.33%;
     padding: 60px;
     text-align: center;
-   
+
 }
 
 
@@ -169,7 +170,7 @@ nav img {
     content: "";
     clear: both;
     display: table;
-    
+
 }
 
 /* media query to break at 700px */
@@ -197,8 +198,8 @@ nav img {
     display: flex;
     justify-content: space-between;
     margin-top: 5%;
-    
-    
+
+
 }
 
 /*styling of lesson boxes*/
@@ -211,6 +212,7 @@ nav img {
     justify-content: space-between;
     margin-bottom: 5%;
 }
+
 .training-col p {
     margin: 10%;
 }
@@ -245,7 +247,7 @@ nav img {
     text-align: center;
     padding: 10px;
     border: 0;
-    
+
 }
 
 
@@ -254,13 +256,13 @@ nav img {
 @media (max-width: 700px) {
     .row {
         flex-direction: column;
-             
+
 
     }
 
     .video-row {
-            flex-direction: column;
-    
+        flex-direction: column;
+
     }
 }
 
@@ -285,6 +287,7 @@ nav img {
     clear: both;
     display: table;
 }
+
 /* testimonial images and styling*/
 
 .container img {
@@ -292,6 +295,7 @@ nav img {
     margin-right: 20px;
     border-radius: 50%;
 }
+
 /*testimonial text */
 
 .container span {
@@ -353,7 +357,7 @@ nav img {
     height: 4px;
     width: 50px;
     border-radius: 2px;
-   
+
 }
 
 .gift-right select {
@@ -466,7 +470,7 @@ textarea {
     height: 4px;
     width: 50px;
     border-radius: 2px;
-   
+
 }
 
 .contact-right select {
@@ -537,31 +541,32 @@ footer {
     height: 10px;
 }
 
- /* footer contact details */
+/* footer contact details */
 
 .social-networks {
-        text-align: center;
-        background-color: #11502B;
-        
+    text-align: center;
+    background-color: #11502B;
 
-    }
 
-    .social-networks li {
-        display: inline;
-        
-    }
-    .social-networks a {
-        color: white;
-    }
+}
 
-    .social-networks i {
-        font-size: 160%;
-        margin: .10%;
-        padding: .25%;
-        color: black;
-    }
+.social-networks li {
+    display: inline;
 
-  /* media query to break at 700px */
+}
+
+.social-networks a {
+    color: white;
+}
+
+.social-networks i {
+    font-size: 160%;
+    margin: .10%;
+    padding: .25%;
+    color: black;
+}
+
+/* media query to break at 700px */
 
 @media screen and (max-width: 700px) {
     .social-networks {
@@ -577,10 +582,10 @@ footer {
     flex-direction: column;
 }
 
- /* Copyright */
- 
- .copy h6 {
+/* Copyright */
+
+.copy {
     text-align: center;
     background-color: #11502B;
     color: white;
- }
+}
