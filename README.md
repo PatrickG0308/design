@@ -33,15 +33,15 @@
 
 ## Strategy Plane
 
-### To determine the best approach to this project I started with to determine the user and business needs
+### To determine the best approach to this project I started with determining the user and business needs for a site
 
 ## User
 
 > As a user I want to be able to find a driving school in my local area.  
 > As a user I want to be able to contact the driving school online.  
 > As a user I want to be able to book lessons online.  
-> As a user I want to be able to read testimonials about the driving school .  
-> As a user I want to be able to order a gift voucher.
+> As a user I want to be able to read testimonials about the driving school and their instructor.  
+> As a user I want to have the option to order a gift voucher.
 
 ## Business Owner
 
@@ -56,8 +56,8 @@
 > The website should have a Navigation menu that is consistent across all pages and devices.  
 > The website should have a information message for the student explaining to them who we are and what we provide and the area we cover.  
 > The website should neatly and appropriatly list the lessons we provide to the students.  
-> The website should give the student proof of work completed through testimonials.  
-> The website should give the student a way to contact the business for quotes or vouchers through a form.  
+> The website should offer potential students positivity through testimonials.  
+> The website should give the student a way to contact the driving school for quotes or vouchers through a form.  
 > The website should give the user more contact methods including phone number, e-mail, instagram page.
 
 # Structure Plane
@@ -79,7 +79,7 @@
 
 **Testimonials**
 
-> The portfolio page should show images of successful students and comments they have made about D'Arcy Driving school.
+> The testimonial page should show images of successful students and comments they have made about D'Arcy Driving school.
 
 **Gift Vouchers**
 
@@ -264,7 +264,7 @@
 
 ![W3 testim.html Check](assets/images/validation/testimhtml.jpg)
 
-#### Result: No Errors, 1 warning about the section missing a heading. Page heading appears for the portfolio above and requires no additional content
+#### Result: No Errors
 
 ### gift.html
 
@@ -305,3 +305,51 @@
 > Issues after running validation **fixed**
 >
 > Contrast issues with Book Now buttons and background colors **fixed**
+
+<a name="deployment"></a>
+
+## Deployment
+
+> To deploy the project I followed these steps starting from the main project repository [here](https://patrickg0308.github.io/design/).
+
+1.  Clicked on `Settings` on the navigation menu in the repository
+2.  I then selected the `Pages` menu on the side bar.
+3.  In the first dropdown menu labeled `Source` I selected the branch of the name `main` from the dropdown.
+4.  In the next dropdown labeled `/root` I left as the default option.
+5.  Selected Save
+
+<a name="credits"></a>
+
+## Credits
+
+> driving school car Images : courtesy of Patrick Grant
+>
+> idea for format and design: https://www.ism.ie/
+>
+> idea for format and design : https://www.ingear.ie/
+>
+> services images : <https://www.freepik.com/>
+>
+> logo: https://www.instagram.com/aisdarcyy/
+>
+> <a name="content"></a>
+
+## Content & Resources
+
+### freepik.com
+
+> Images used for services
+
+### W3Schools.com
+
+> for guidance and a lot of help on the journey
+
+### stackoverflow.co
+
+> for endless answers
+>
+> <a name="acknowlegements"></a>
+
+## Acknowledgements
+
+> My mentor Daisy McGirr for pointing me in the direction of flexbox which was a game changer.
