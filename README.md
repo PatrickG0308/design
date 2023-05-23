@@ -55,10 +55,10 @@
 
 > The website should have a Navigation menu that is consistent across all pages and devices.  
 > The website should have a information message for the student explaining to them who we are and what we provide and the area we cover.  
-> The website should neatly and appropriatly list the lessons we provide to the students.  
+> The website should neatly and appropriatly list and describe the lessons we provide to the students.  
 > The website should offer potential students positivity through testimonials.  
 > The website should give the student a way to contact the driving school for quotes or vouchers through a form.  
-> The website should give the user more contact methods including phone number, e-mail, instagram page.
+> The website should give the student more contact methods including phone number, e-mail, instagram page.
 
 # Structure Plane
 
@@ -134,7 +134,7 @@
 
 ![EDT Video](assets/images/features/edt.jpg)
 
-> You Tube video outlining EDT training requirements plays in page.
+> You Tube video outlining EDT training requirements plays in page. Requires user action to play.
 
 ## testim.html
 
@@ -152,7 +152,7 @@
 
 ![Contact Form](assets/images/features/contactform.jpg)
 
-> Main traffic page were all click to action "Book Now" buttons are redirected. Collects data through compulsory fields and offers a dropdown menu with choice of lessons available. Offers an enquiry field for general enquiries.Upon submission the user is redirected to thankyou.html
+> Main traffic page were all click to action "Book Now" buttons are redirected. Collects data through compulsory fields and offers a dropdown menu with choice of lessons available. Offers an enquiry field for general enquiries.Upon submission the user is redirected to thankyou.html.
 
 ## thankyou.html
 
@@ -181,7 +181,7 @@
 - CodeAnywhere
   - The website was developed using Visual Studio Code IDE <https://app.codeanywhere.com/>
 - GitHub
-  - Source code is hosted on GitHub and delpoyed using Git Pages.
+  - Source code is hosted on GitHub and deployed using Git Pages.
 - Font Awesome
   - Icons obtained from <https://fontawesome.com/> were used as the Social media links in the footer section.
 - Tinypng
@@ -201,7 +201,7 @@
 |All links on Navigation lead to their correct pages| Pass |
 |All Book Now buttons leads to contact form on contact us page| Pass
 |Footer social links all lead to their respective social media sites |Pass|
-|Contact form submits when all criteria is filled correctly| Pass |
+|Contact form submits when all criteria is filled in correctly| Pass |
 |User prevented from submitting form without correct elements| Pass|
 |Form Validation presents when incorrect input type is entered |Pass|
 |Thank you page appears upon submission of Gift and Contact forms |Pass|
@@ -209,8 +209,8 @@
 **Testing for responsiveness**
 | Test |Outcome |
 |--|--|
-|Home page, about, portfolio, contact us displays correctly on screens larger than 700px|Pass |
-|Home page, about, portfolio, contact us displays correctly on screens smaller than 700px |Pass
+|Home, lessons, testimonials, gift voucher and contact us displays correctly on screens larger than 700px|Pass |
+|Home, lessons, testimonials, gift voucher, contact us displays correctly on screens smaller than 700px |Pass
 
 **User responsive testing**
 
@@ -286,9 +286,9 @@
 
 ## CSS Validation
 
-### index.html
+### style.css
 
-![W3 index.html Check](assets/images/validation/validcss.jpg)
+![W3 style.css Check](assets/images/validation/validcss.jpg)
 
 #### Result: No Errors
 
@@ -310,13 +310,15 @@
 
 ## Deployment
 
-> To deploy the project I followed these steps starting from the main project repository [here](https://patrickg0308.github.io/design/).
+> To deploy the project I followed these steps starting from the main project repository [here](https://github.com/PatrickG0308/design).
 
 1.  Clicked on `Settings` on the navigation menu in the repository
-2.  I then selected the `Pages` menu on the side bar.
-3.  In the first dropdown menu labeled `Source` I selected the branch of the name `main` from the dropdown.
-4.  In the next dropdown labeled `/root` I left as the default option.
-5.  Selected Save
+2.  I then selected the `Pages` menu on the side bar under the header `Code and automation`.
+3. Under the `Build and deployment` section under the header `Source`, I selected `Deploy from a branch`.
+4. Under the next header `Branch` from the first dropdown menu I selected `main`, on the second dropdown menu I selected `root`.
+5. Selected `save`
+
+Within a few minutes I was alerted that the site was now live.
 
 <a name="credits"></a>
 
