@@ -244,12 +244,20 @@ nav img {
 
 /* rsa training video insert (youtube)*/
 
-.video-insert {
-    width: 100%;
-    margin: auto;
-    text-align: center;
-    padding: 10px;
-    border: 0;
+.video-col {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30%;
+    padding: 20px;
+}
+
+iframe {
+    width: 500px;
+    height: 300px;
+       
+    
+
 
 }
 
@@ -264,6 +272,10 @@ nav img {
     .video-row {
         flex-direction: column;
 
+    }
+    iframe {
+        width: 70%;
+        min-height: 300px;
     }
 }
 
@@ -540,6 +552,7 @@ textarea {
 
 footer {
     height: 10px;
+    padding: 5px;
 }
 
 /* footer contact details */
