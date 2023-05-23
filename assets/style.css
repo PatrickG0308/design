@@ -81,6 +81,9 @@ nav img {
     .logo {
         margin-bottom: 10px;
     }
+    nav {
+        flex-direction: column;
+    }
 }
 
 
@@ -256,8 +259,6 @@ nav img {
 @media (max-width: 700px) {
     .row {
         flex-direction: column;
-
-
     }
 
     .video-row {
