@@ -4,7 +4,7 @@
 
 ### Creator - Patrick Grant
 
-![am I responsive screenshot](assets/images/features/responsive.jpg)
+![am I responsive screenshot](assets/docs/features/responsive.jpg)
 
 ## **[Live site](https://patrickg0308.github.io/design/index.html)**
 
@@ -100,25 +100,25 @@
 
 #### Navigation Bar
 
-![Navigation Bar](assets/images/features//navbar.jpg)
+![Navigation Bar](assets/docs/features//navbar.jpg)
 
 > Logo on left side with 5 nav links on right with hover styling.
 
 #### Intro
 
-![Intro Section](assets/images/features//intro.jpg)
+![Intro Section](assets/docs/features//intro.jpg)
 
 > Intro and image side by side with call to action book now button. This button will take user to contact.html
 
 #### Services Section
 
-![Services Section](assets/images/features/services.jpg)
+![Services Section](assets/docs/features/services.jpg)
 
 > Services showcased through the use of images.
 
 #### Footer
 
-![Footer](assets/images/features/footer.jpg)
+![Footer](assets/docs/features/footer.jpg)
 
 > Contact information for business highlighted in "Traffic light" green.
 
@@ -126,37 +126,37 @@
 
 #### Lesson Type
 
-![lesson type](assets/images/features/type.jpg)
+![lesson type](assets/docs/features/type.jpg)
 
 > Outline lesson type with description and click to action button which takes user to contact page.
 
 #### EDT Video
 
-![EDT Video](assets/images/features/edt.jpg)
+![EDT Video](assets/docs/features/edt.jpg)
 
 > You Tube video outlining EDT training requirements plays in page. Requires user action to play.
 
 ## testim.html
 
-![Testimonials](assets/images/features/testimonials.jpg)
+![Testimonials](assets/docs/features/testimonials.jpg)
 
 > Testimonials from successfull students
 
 ## gift.html
 
-![Gift Form](assets/images/features/giftform.jpg)
+![Gift Form](assets/docs/features/giftform.jpg)
 
 > Collects user data through compulsory fields, offers a choice of amounts through dropdown menu. Upon submission this page is redirected to thankyou.html page for better user experience.
 
 ## contact.html
 
-![Contact Form](assets/images/features/contactform.jpg)
+![Contact Form](assets/docs/features/contactform.jpg)
 
 > Main traffic page were all click to action "Book Now" buttons are redirected. Collects data through compulsory fields and offers a dropdown menu with choice of lessons available. Offers an enquiry field for general enquiries.Upon submission the user is redirected to thankyou.html.
 
 ## thankyou.html
 
-![Contact Form](assets/images/features/thanks.jpg)
+![Thank you response](assets/docs/features/thanks.jpg)
 
 > Submitted requests from gift.html and contact.html will receive this response for better user experience.
 
@@ -224,63 +224,63 @@
 
 ### index.html
 
-![Google Lighthouse index.html](assets/images/validation/lightindex.jpg)
+![Google Lighthouse index.html](assets/docs/validation/lightindex.jpg)
 
 ### lesson.html
 
-![Google Lighthouse lesson.html](assets/images/validation/lightlesson.jpg)
+![Google Lighthouse lesson.html](assets/docs/validation/lightlesson.jpg)
 
 ### testim.html
 
-![Google Lighthouse testim.html](assets/images/validation/lighttestim.jpg)
+![Google Lighthouse testim.html](assets/docs/validation/lighttestim.jpg)
 
 ### gift.html
 
-![Google Lighthouse gift.html](assets/images/validation/lightgift.jpg)
+![Google Lighthouse gift.html](assets/docs/validation/lightgift.jpg)
 
 ### contact.html
 
-![Google Lighthouse gift.html](assets/images/validation/lightcontact.jpg)
+![Google Lighthouse gift.html](assets/docs/validation/lightcontact.jpg)
 
 ### thankyou.html
 
-![Google Lighthouse gift.html](assets/images/validation/lightthankyou.jpg)
+![Google Lighthouse gift.html](assets/docs/validation/lightthankyou.jpg)
 
 ## HTML Validation
 
 ### index.html
 
-![W3 index.html Check](assets/images/validation/indexhtml.jpg)
+![W3 index.html Check](assets/docs/validation/indexhtml.jpg)
 
 #### Result: No Errors
 
 ### lesson.html
 
-![W3 lesson.html Check](assets/images/validation/lessonhtml.jpg)
+![W3 lesson.html Check](assets/docs/validation/lessonhtml.jpg)
 
 #### Result: No Errors
 
 ### testim.html
 
-![W3 testim.html Check](assets/images/validation/testimhtml.jpg)
+![W3 testim.html Check](assets/docs/validation/testimhtml.jpg)
 
 #### Result: No Errors
 
 ### gift.html
 
-![W3 gift.html Check](assets/images/validation/gifthtml.jpg)
+![W3 gift.html Check](assets/docs/validation/gifthtml.jpg)
 
 #### Result: No Errors
 
 ### contact.html
 
-![W3 contact.html Check](assets/images/validation/contacthtml.jpg)
+![W3 contact.html Check](assets/docs/validation/contacthtml.jpg)
 
 #### Result: No Errors
 
 ### thankyou.html
 
-![W3 contact.html Check](assets/images/validation/thankyouhtml.jpg)
+![W3 thankyou.html Check](assets/docs/validation/thankyouhtml.jpg)
 
 #### Result: No Errors
 
@@ -288,7 +288,7 @@
 
 ### style.css
 
-![W3 style.css Check](assets/images/validation/validcss.jpg)
+![W3 style.css Check](assets/docs/validation/validcss.jpg)
 
 #### Result: No Errors
 
@@ -305,6 +305,9 @@
 > Issues after running validation **fixed**
 >
 > Contrast issues with Book Now buttons and background colors **fixed**
+>
+> Navigation Links responsiveness **fixed**
+
 
 <a name="deployment"></a>
 
