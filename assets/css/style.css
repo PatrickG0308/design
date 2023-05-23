@@ -346,7 +346,7 @@ iframe {
 }
 
 .gift-left {
-    background: url("../assets/images/lplatecar.webp") no-repeat center;
+    background: url("/assets/images/lplatecar.webp") no-repeat center;
     background-size: cover;
     height: 100%;
 }
@@ -459,7 +459,7 @@ textarea {
 }
 
 .contact-left {
-    background: url("../assets/images/roofsign.webp") no-repeat center;
+    background: url("/assets/images/roofsign.webp") no-repeat center;
     background-size: cover;
     height: 100%;
 }
