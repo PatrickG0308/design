@@ -4,7 +4,7 @@
 
 ### Creator - Patrick Grant
 
-![am I responsive screenshot](assets/images/features/Responsive.jpg)
+![am I responsive screenshot](assets/images/features/responsive.jpg)
 
 ## **[Live site](https://patrickg0308.github.io/design/index.html)**
 
@@ -100,7 +100,7 @@
 
 #### Navigation Bar
 
-![Navigation Bar](assets/images/features//NavBar.jpg)
+![Navigation Bar](assets/images/features//navbar.jpg)
 
 > Logo on left side with 5 nav links on right with hover styling.
 
@@ -132,7 +132,7 @@
 
 #### EDT Video
 
-![EDT Video](assets/images/features/EDT.jpg)
+![EDT Video](assets/images/features/edt.jpg)
 
 > You Tube video outlining EDT training requirements plays in page.
 
