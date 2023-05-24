@@ -313,15 +313,41 @@
 
 ## Deployment
 
-> To deploy the project I followed these steps starting from the main project repository [here](https://github.com/PatrickG0308/design).
+### Version Control
 
-1.  Clicked on `Settings` on the navigation menu in the repository
-2.  I then selected the `Pages` menu on the side bar under the header `Code and automation`.
-3. Under the `Build and deployment` section under the header `Source`, I selected `Deploy from a branch`.
-4. Under the next header `Branch` from the first dropdown menu I selected `main`, on the second dropdown menu I selected `root`.
-5. Selected `save`
+The site was created using the CodeAnywhere code editor and pushed to github to the remote repository [here](https://github.com/PatrickG0308/design) .
 
-Within a few minutes I was alerted that the site was now live.
+The following git commands were used throughout development to push code to the remote repo:
+
+```git add .```  - This command was used to add the file(s) to the staging area before they are committed.
+
+```git commit -m “commit message”```  - This command was used to commit changes to the local repository queue ready for the final step.
+
+```git push```  - This command was used to push all committed code to the remote repository on github.
+
+### Deployment to Github Pages
+
+- The site was deployed through GitHub pages. The steps to deploy are as follows:
+  - In the GitHub repository, navigate to the Settings tab
+  - From the menu on left under the header `Code and automation`  select `Pages`
+  - Under the `Build and deployment` section under the header `Source`, I selected `Deploy from a branch`.
+  - Under the next header `Branch` from the first dropdown menu I selected `main`, on the second dropdown menu I selected `root`.
+  - Click `Save`
+  - A live link will be displayed at the top of the GitHub Pages when published successfully.
+
+The live link can be found [here](https://patrickg0308.github.io/design/)
+
+### Clone the Repository Code Locally
+
+Navigate to the GitHub Repository you want to clone to use locally:
+
+- Click on the code drop down button
+- Click on HTTPS
+- Copy the repository link to the clipboard
+- Open your IDE of choice (git must be installed for the next steps)
+- Type git clone copied-git-url into the IDE terminal
+
+The project will now of been cloned on your local machine for use.
 
 <a name="credits"></a>
 
