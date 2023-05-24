@@ -404,4 +404,4 @@ The project will now of been cloned on your local machine for use.
 
 ## Acknowledgements
 
-> My mentor Daisy McGirr for pointing me in the direction of flexbox which was a game changer.
+> My mentor Daisy McGirr for pointing me in the direction of flexbox which was a game changer, her expertise and encouragement. 
