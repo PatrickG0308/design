@@ -586,6 +586,14 @@ footer {
     .social-networks {
         width: 100%;
     }
+    .social-networks li {
+        display: flex;
+        align-items: center;
+    }
+
+    .social-networks li i {
+        padding-right: 10px;
+    };
 }
 
 /* thank you */
