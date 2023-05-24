@@ -113,7 +113,12 @@ nav img {
 
 .box h2 {
     font-size: 50px;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
+    width: 80%;
+}
+
+.box p {
+    width: 80%;
 }
 
 
@@ -163,7 +168,7 @@ nav img {
 .services-col {
     float: left;
     width: 33.33%;
-    padding: 60px;
+    padding: 40px;
     text-align: center;
 
 }
