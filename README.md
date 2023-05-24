@@ -102,26 +102,35 @@
 
 ![Navigation Bar](assets/docs/features//navbar.jpg)
 
-> Logo on left side with 5 nav links on right with hover styling.
+> Contains links to the Home, Lessons, Testimonials, Gift Vouchers, Contact pages and will be responsive on all devices.
+> 
+> This will allow users to easily navigate between the pages within the site on any size device.
 
 #### Intro
 
 ![Intro Section](assets/docs/features//intro.jpg)
 
-> Intro and image side by side with call to action book now button. This button will take user to contact.html
+> Intro and image side by side with call to action book now button. This button will take user to contact.html.
+>
+> This information lets the user know what the site is about.
 
 #### Services Section
 
 ![Services Section](assets/docs/features/services.jpg)
 
 > Services showcased through the use of images.
+>
+> This information will convey to users what type of services are available
 
 #### Footer
 
 ![Footer](assets/docs/features/footer.jpg)
 
-> Contact information for business highlighted in "Traffic light" green.
-
+> Contact information for business.
+>
+> This will allow the user to follow `D'Arcy Driving` on social media where they can get more up to date information that may not be displayed on the website. The contact information will allow the user to contact `D'Arcy Driving` directly. All links open seperate tabs to the appropriate
+apps.
+ 
 ## lesson.html
 
 #### Lesson Type
@@ -129,36 +138,48 @@
 ![lesson type](assets/docs/features/type.jpg)
 
 > Outline lesson type with description and click to action button which takes user to contact page.
+>
+> This information informs users of the lesson types that are available and the option to `Book Now`
 
 #### EDT Video
 
 ![EDT Video](assets/docs/features/edt.jpg)
 
 > You Tube video outlining EDT training requirements plays in page. Requires user action to play.
+>
+> Video helping users make an informed decision 
 
 ## testim.html
 
 ![Testimonials](assets/docs/features/testimonials.jpg)
 
 > Testimonials from successfull students
+>
+> This infomation shows users successful students and their comments about `D'Arcy Driving` 
 
 ## gift.html
 
 ![Gift Form](assets/docs/features/giftform.jpg)
 
 > Collects user data through compulsory fields, offers a choice of amounts through dropdown menu. Upon submission this page is redirected to thankyou.html page for better user experience.
+>
+> This form allows users to purchase Gift Vouchers for different denominations.
 
 ## contact.html
 
 ![Contact Form](assets/docs/features/contactform.jpg)
 
 > Main traffic page were all click to action "Book Now" buttons are redirected. Collects data through compulsory fields and offers a dropdown menu with choice of lessons available. Offers an enquiry field for general enquiries.Upon submission the user is redirected to thankyou.html.
+>
+> This form allows users to book a lesson, enter a general query or request a quote. A user can request all three if required.
 
 ## thankyou.html
 
 ![Thank you response](assets/docs/features/thanks.jpg)
 
 > Submitted requests from gift.html and contact.html will receive this response for better user experience.
+>
+> This infomation confirms to user that their submission to `D'Arcy Driving` has been successful and they will be in touch shortly,
 
 <a name="left"></a>
 
