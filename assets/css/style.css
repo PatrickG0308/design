@@ -609,6 +609,8 @@ footer {
     min-height: 66vh;
     display: flex;
     flex-direction: column;
+    width: 100%;
+    align-items: center;
 }
 
 /* Copyright */
